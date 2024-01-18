@@ -3,7 +3,7 @@ How to add a Desktop Item/ Task Favorites Item for "Mule Anypoint Studio"  7.x
 
 ## Create file:
 ```bash
-sudo vi /usr/share/applications/AnypointStudio.desktop
+sudo gedit /usr/share/applications/AnypointStudio.desktop
 ```
 
 Put the bellow content on the previous created file, replacing the bracets with your local path:
