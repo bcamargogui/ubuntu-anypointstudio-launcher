@@ -1,9 +1,12 @@
 # ubuntu-anypointstudio-launcher
 How to add a Desktop Item/ Task Favorites Item for "Mule Anypoint Studio"  7.x
 
-## create file:
-sudo vim /usr/share/applications/AnypointStudio.desktop
+## Create file:
+```bash
+sudo vi /usr/share/applications/AnypointStudio.desktop
+```
 
+Put the bellow content on the previous created file, replacing the bracets with your local path:
 ```
 [Desktop Entry]
 Version=7.10
@@ -14,9 +17,8 @@ Name=AnypointStudio
 Icon=[installation-directory]/AnypointStudio/icon.xpm
 ```
 
-## mod permissions
-
+## Mod permissions
+```bash
 sudo chmod 644 /usr/share/applications/AnypointStudio.desktop
-
 sudo chown root:root /usr/share/applications/AnypointStudio.desktop
-
+```
